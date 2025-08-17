@@ -17,5 +17,5 @@ HTML5: For the core structure and content of the website.
 
 Tailwind CSS: Used for all styling, including layout, typography, and color palette.
 
-<a href=#> Wesbite Link </a>
+<a href=https://dharshiniyay.github.io/Greenden-Website/> Wesbite Link </a>
 
