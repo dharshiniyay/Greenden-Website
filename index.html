@@ -9,17 +9,40 @@
   </head>
   <body>
     <!--NavBar-->
-    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+    <nav
+      class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"
+    >
       <h1 class="text-2xl">Greenden</h1>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:hidden" width="24" height="24">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-</svg>
+      <div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 md:hidden"
+        width="24"
+        height="24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+        />
+      </svg>
 
-      <ul class="flex gap-5 text-gray-600 md:flex sm:hidden">
-        <li class="hover:underline hover:text-black"><a href="./index.html">Home</a></li>
-        <li class="hover:underline hover:text-black"><a href="./product.html">Product</a></li>
-        <li class="hover:underline hover:text-black"><a href="./contact.html">Contact</a></li>
+      <ul class="flex gap-5 text-gray-600 md:flex">
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./product.html">Product</a>
+        </li>
+        <li class="hover:underline hover:text-black hidden md:flex">
+          <a href="./contact.html">Contact</a>
+        </li>
       </ul>
+      </div>
     </nav>
     <!--Header Section-->
     <section class="bg-green-100 p-4 flex justify-center">
